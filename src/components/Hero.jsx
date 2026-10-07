@@ -1,4 +1,4 @@
-import mascot from '../assets/mascot/mmm-mascot.svg'
+import mascot from '../assets/mascot/mmm-mascot.png'
 import { WHATSAPP_URL } from '../data/content'
 
 function Hero() {

@@ -1,4 +1,4 @@
-import artwork from '../assets/brand/mmm-brand.svg'
+import artwork from '../assets/brand/mmm-brand.png'
 import { WHATSAPP_URL } from '../data/content'
 
 function About() {
