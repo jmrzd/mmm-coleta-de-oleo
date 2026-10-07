@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="t d">
+<title id="t">MMM Coleta de Óleo</title>
+<desc id="d">Arte vetorial preta e dourada da MMM Coleta de Óleo.</desc>
+<defs>
+  <radialGradient id="bg" cx="50%" cy="38%" r="70%">
+    <stop offset="0" stop-color="#2a1b05"/>
+    <stop offset=".55" stop-color="#0b0b0a"/>
+    <stop offset="1" stop-color="#030303"/>
+  </radialGradient>
+  <linearGradient id="gold" x1="0" x2="1">
+    <stop stop-color="#ffdc58"/>
+    <stop offset=".45" stop-color="#f4b51f"/>
+    <stop offset="1" stop-color="#9a5f00"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="1200" fill="url(#bg)"/>
+<circle cx="600" cy="390" r="290" fill="none" stroke="#f4b51f" stroke-width="16" opacity=".7"/>
+<circle cx="600" cy="390" r="235" fill="#111"/>
+<path d="M600 145 C560 220 510 265 510 330c0 55 40 102 90 102s90-47 90-102c0-65-50-110-90-185Z" fill="url(#gold)"/>
+<path d="M250 500 C350 430 850 430 950 500 L900 735 C780 785 420 785 300 735 Z" fill="#090909" stroke="#f4b51f" stroke-width="10"/>
+<text x="600" y="625" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="245" font-weight="900" fill="url(#gold)" stroke="#050505" stroke-width="12">MMM</text>
+<text x="600" y="760" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="94" font-weight="900" fill="#fff">COLETA DE ÓLEO</text>
+<text x="115" y="945" font-family="Arial,sans-serif" font-size="48" font-weight="900" fill="#fff">ÓLEO USADO</text>
+<text x="115" y="1005" font-family="Arial,sans-serif" font-size="48" font-weight="900" fill="#f4b51f">É DINHEIRO DE VOLTA</text>
+<g transform="translate(905 900)" fill="none" stroke="#f4b51f" stroke-width="20" stroke-linecap="round">
+  <path d="M0 70 70 0l35 55"/>
+  <path d="M105 55 160 150l-65 5"/>
+  <path d="M95 155H-5l30-55"/>
+</g>
+</svg>

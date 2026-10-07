@@ -6,5 +6,3 @@ dist
 !.env.example
 .DS_Store
 *.local
-.vscode/*
-!.vscode/extensions.json
