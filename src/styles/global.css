@@ -64,14 +64,15 @@ img{display:block;max-width:100%}
 .section-heading{max-width:860px;margin-bottom:56px}
 .section-heading--split{max-width:none;display:grid;grid-template-columns:1.4fr .6fr;align-items:end;gap:60px}
 .section-heading--split p,.section-heading>p{color:var(--muted);line-height:1.7}
-.oil-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--border-dark);border-bottom:1px solid var(--border-dark)}
-.oil-card{position:relative;min-height:350px;display:flex;flex-direction:column;padding:30px;border-right:1px solid var(--border-dark);transition:background 180ms ease}
+.oil-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--border-dark);border-bottom:1px solid var(--border-dark)}
+.oil-card{position:relative;min-width:0;min-height:350px;display:flex;flex-direction:column;padding:30px;border-right:1px solid var(--border-dark);transition:background 180ms ease}
 .oil-card:last-child{border-right:0}
 .oil-card:hover{background:#171611}
+.oil-card__image{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1;object-fit:contain;border-radius:12px;margin-bottom:22px;background:#ddd9d1}
 .oil-card__number{color:var(--gold);font-size:.72rem;font-weight:900}
-.oil-card h3{margin-top:auto;font-size:clamp(1.7rem,3vw,2.55rem);letter-spacing:-.04em}
+.oil-card h3{margin-top:14px;overflow-wrap:break-word;font-size:clamp(1.7rem,3vw,2.55rem);letter-spacing:-.04em}
 .oil-card p{margin-top:14px;color:var(--muted);line-height:1.6}
-.oil-card a{margin-top:22px;color:var(--gold);font-weight:800;font-size:.82rem}
+.oil-card a{display:flex;align-items:center;gap:8px;min-height:44px;margin-top:auto;padding-top:22px;color:var(--gold);font-weight:800;font-size:.82rem}
 .vegetable-card{margin-top:34px;display:grid;grid-template-columns:1fr .9fr;gap:26px 60px;padding:clamp(28px,5vw,60px);border:1px solid rgba(244,181,31,.25);border-radius:var(--radius);background:radial-gradient(circle at 80% 20%,rgba(244,181,31,.12),transparent 26%),#0b0b09}
 .badge{display:inline-flex;margin-bottom:40px;padding:7px 10px;border:1px solid rgba(244,181,31,.32);border-radius:999px;color:var(--gold);font-size:.65rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
 .vegetable-card__mini{display:block;color:var(--muted);font-size:.7rem;font-weight:850;letter-spacing:.14em;text-transform:uppercase}
@@ -172,7 +173,7 @@ img{display:block;max-width:100%}
 .about-grid h2,.section-heading h2,.impact h2,.contact h2{font-size:clamp(2.7rem,13vw,4.7rem)}
 .section-heading--split{grid-template-columns:1fr;gap:20px}
 .oil-grid,.steps-grid{grid-template-columns:1fr}
-.oil-card{min-height:250px;border-right:0;border-bottom:1px solid var(--border-dark)}
+.oil-card{min-height:0;padding:24px 16px;border-right:0;border-bottom:1px solid var(--border-dark)}
 .oil-card:last-child{border-bottom:0}
 .vegetable-card{grid-template-columns:1fr;gap:24px}
 .vegetable-card .button{grid-column:auto}

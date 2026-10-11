@@ -1,4 +1,14 @@
 import { oilTypes, WHATSAPP_URL } from '../data/content'
+import cookingOil from '../assets/oils/oleo-cozinha.webp'
+import foodFat from '../assets/oils/gorduras-alimentares.webp'
+import lubricant from '../assets/oils/oleo-lubrificante.webp'
+
+const oilImages = {
+  '01': { src: cookingOil, alt: 'Óleo de cozinha usado em garrafa transparente fechada' },
+  '02': { src: foodFat, alt: 'Gordura alimentar fria em pote fechado' },
+  '03': { src: lubricant, alt: 'Recipiente de óleo lubrificante com tampa' },
+}
+
 
 function OilTypes() {
   return (
@@ -19,6 +29,15 @@ function OilTypes() {
         <div className="oil-grid">
           {oilTypes.map((item) => (
             <article className="oil-card" key={item.number}>
+              <img
+                className="oil-card__image"
+                src={oilImages[item.number].src}
+                alt={oilImages[item.number].alt}
+                width="800"
+                height="800"
+                loading="lazy"
+                decoding="async"
+              />
               <span className="oil-card__number">{item.number}</span>
               <h3>{item.title}</h3>
               <p>{item.text}</p>
