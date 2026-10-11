@@ -12,8 +12,6 @@ function Process() {
         <div className="steps-grid">
           {steps.map((step) => (
             <article className="step" key={step.number}>
-              <span>{step.number}</span>
-
               <div>
                 <h3>{step.title}</h3>
                 <p>{step.text}</p>

@@ -14,7 +14,7 @@ function About() {
 
         <div className="about-grid">
           <div>
-            <span className="section-index">01 — O começo de um novo ciclo</span>
+            <span className="section-index">O começo de um novo ciclo</span>
             <p className="eyebrow">MMM Mario Coleta de Óleo</p>
 
             <h2>Bom para sua rotina. Melhor para o amanhã.</h2>
@@ -35,7 +35,7 @@ function About() {
           </div>
 
           <figure className="about-card">
-            <img src={artwork} alt="Identidade visual MMM Coleta de Óleo" />
+            <img src={artwork} width="1254" height="1254" loading="lazy" decoding="async" alt="Identidade visual MMM Coleta de Óleo" />
           </figure>
         </div>
       </div>

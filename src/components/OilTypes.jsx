@@ -38,7 +38,6 @@ function OilTypes() {
                 loading="lazy"
                 decoding="async"
               />
-              <span className="oil-card__number">{item.number}</span>
               <h3>{item.title}</h3>
               <p>{item.text}</p>
               <a href={WHATSAPP_URL} target="_blank" rel="noreferrer">
